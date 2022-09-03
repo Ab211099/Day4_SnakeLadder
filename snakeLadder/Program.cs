@@ -6,7 +6,7 @@
         {
             Console.WriteLine("Hello, World!");
 
-            Console.WriteLine("Enter the Program number \n 1.Player start the position\n 2.Check the number on die \n 3.Player check ");
+            Console.WriteLine("Enter the Program number \n 1.Player start the position\n 2.Check the number on die \n 3.Player check 4.Winning position");
 
             int optionCheck = Convert.ToInt32(Console.ReadLine());
 
@@ -22,6 +22,9 @@
                     break;
                 case 3:    
                     UC3_option_check.Checkoption();
+                    break; 
+                case 4:    
+                    UC4_Winning_position.winningPosition();
                     break;
             }
         }
