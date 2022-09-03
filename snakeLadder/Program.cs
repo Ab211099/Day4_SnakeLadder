@@ -21,7 +21,11 @@
                     obj1.dieCheck();
                     break;
                 case 3:    
+<<<<<<< HEAD
                     UC2_option_check.Checkoption();
+=======
+                    UC3_option_check.Checkoption();
+>>>>>>> UC3_option_check
                     break;
             }
         }

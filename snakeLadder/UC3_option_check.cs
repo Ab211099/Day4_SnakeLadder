@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace snakeLadder
 {
-    internal class UC2_option_check
+    internal class UC3_option_check
     {
         static int START_POSITION = 0;
         
